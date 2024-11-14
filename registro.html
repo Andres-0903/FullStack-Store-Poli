@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fullstack Store</title>
+    <link rel="stylesheet" href="build/scss/app.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Itim&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+</head>
+<body class="body_contacto">
+    <header class="header_contacto">
+        <div class="contenedor">
+            <div class="barra">
+                <a class="logo" href="index.html">
+                    <h1 class="logo__nombre no-margin centrar-texto">Fullstack Store</h1>
+                </a>
+
+                <nav class="navegacion_contacto">
+                    <a class="navegacion__enlace2" href="nosotros.html">Nosotros</a>
+                    <a class="navegacion__enlace2 navegacion__enlace2--activo" href="index.html">Tienda</a>                   
+                </nav>
+            </div>
+        </div>
+
+    </header>
+
+    <main class="contenedor_contacto">
+        <h3 class="centrar-texto">Contacto</h3>
+
+        <div class="contacto-bg"></div>
+
+        <form class="formulario_contacto">
+        <div class="campo">
+            <label class="campo__label" for="nombre">Nombre</label>
+            <input 
+                class="campo__field"
+                type="text" 
+                placeholder="Tu nombre" 
+                id="nombre"
+            >
+        </div>
+        <div class="campo">
+            <label class="campo__label" for="email">E-mail</label>
+            <input 
+                class="campo__field" 
+                type="E-mail" 
+                placeholder="Tu E-mail" 
+                id="email"
+            >
+        </div>
+        <div class="campo">
+            <label class="campo__label" for="telefono">Telefono</label>
+            <input 
+                type="tel" 
+                placeholder="Tu telefono" 
+                id="telefono"
+            >
+        </div>
+        <div class="campo">
+            <label for="mensaje">Mensaje</label>
+            <textarea 
+            class="campo__field campo__field--textarea"            
+            id="mensaje"
+            >
+</textarea>            
+             
+        </div>
+
+            <div class="campo"> 
+                <input type="submit" value="Enviar" class="boton boton--primario">
+            </div>
+        </form>   
+
+     
+    </main>
+
+    <footer class="footer_registro">
+        <div class="contenedor">
+            <div class="barra">
+                <a class="logo" href="index.html">
+                    <h1 class="logo__nombre no-margin 
+                    centrar-texto">Fullstack<span class="logo__bold"> Store</span><span class="autor">   By Andrés García</span></h1>
+                </a>
+
+                <nav class="navegacion_contacto">
+                    <a href="nosotros.html" class="navegacion__enlace2">Nosotros</a>
+                    <a class="navegacion__enlace2 navegacion__enlace2--activo" href="index.html">Tienda</a> 
+                </nav>
+            </div>
+        </div>
+    </footer>
+    
+</body>
+</html>

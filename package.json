@@ -1,0 +1,29 @@
+{
+  "name": "tienda-virtual",
+  "version": "2.0.0",
+  "description": "Creando Tienda Virtual con SASS y NPM",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "sass": "sass --watch src/scss:build/css",
+    "dev": "gulp dev"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Andres-0903"
+  },
+  "keywords": [
+    "SASS",
+    "NPM",
+    "Gulp"
+  ],
+  "author": "Andres Arenas Garcia",
+  "license": "ISC",
+  "devDependencies": {
+    "gulp": "^5.0.0",
+    "sass": "^1.80.5"
+  },
+  "dependencies": {
+    "gulp-sass": "^5.1.0"
+  }
+}
